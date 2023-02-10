@@ -1,0 +1,32 @@
+{
+  "name": "api-instadp",
+  "version": "1.0.0",
+  "description": "Scraper",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/refoxdev/api-instadp.git"
+  },
+  "keywords": [
+    "instascraper"
+  ],
+  "author": "Himanshu Maurya (codingstark.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/refoxdev/api-instadp/issues"
+  },
+  "homepage": "https://github.com/refoxdev",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^9.6.1",
+    "form-data": "^4.0.0",
+    "qs": "^6.10.3"
+  }
+}
